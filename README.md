@@ -3,7 +3,6 @@
 ### ★学習Webアプリ
 
 Microsoft 認定資格（AB-410）の練習問題を、**Microsoft Learn の公式ドキュメントだけを根拠に**複数の AI で作成・検証し、スマホで解ける学習アプリです。Claude Code で開発しています（ソースは非公開）。
-
 新しい資格には紙の参考書がなく、公式の練習問題は量が限られ、Web の問題集は何を根拠に作られたのかが見えません。それなら、根拠のはっきりした問題を自分で作ろう、と始めました。
 
 #### 公式ドキュメントだけを根拠にした多段検証
@@ -43,6 +42,6 @@ Microsoft 認定資格（AB-410）の練習問題を、**Microsoft Learn の公�
 | 画面 | React + TypeScript（Vite、Tailwind CSS） |
 | API | Python（FastAPI）、Azure App Service |
 | データ | Dataverse |
-| 問題の生成・検証 | GitHub Actions（画面から依頼。Claude の呼び出しを半額のバッチ処理で送るモードもあり） |
+| 問題の生成・検証 | GitHub Actions|
 | AI | Claude・GPT・Gemini を役割ごとに使い分け |
 | 品質 | 自動テスト600件超。CI を通ったときだけデプロイ |
